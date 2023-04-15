@@ -1,0 +1,82 @@
+.write{
+    padding-top:50px ;
+}
+
+.writeForm{
+    position: relative;
+}
+
+.writeFromGroup{
+    display: flex;
+    align-items: center;
+  margin-left: 150px;
+}
+
+.writeIcon{
+   
+    width: 25px;
+  height: 25px;
+  font-size: 20px;
+  border: 1px solid;
+  border-radius: 50%;
+  color:black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.Write-img{
+    margin-left:150px;
+    height: 300px;
+    width: 78%;
+    border-radius:10px;
+    object-fit: cover;
+}
+
+.Write-Title{
+    border: none;
+    margin:10px ;
+    width: 70vw;
+    height: 50px;
+    font-size: 20px;
+}
+
+.Write-Title::placeholder{
+    color:grey;
+    font-weight: 700;
+    font-size:20px;
+   
+}
+
+.Write-Title::content{
+    font-size: 20px;
+}
+
+.Write-Title:focus{
+    outline-style: none;
+}
+
+.writeText{
+    font-size: 30px;
+    width: 70vw;
+    height: 100vh;
+    border: none;
+}
+
+.writeText:focus{
+    outline-style: none;
+}
+
+.WriteSubmit{
+    position:absolute;
+    top: 20px;
+    right: 178px;
+    border: none;
+    background-color: teal;
+    color:white;
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+}
